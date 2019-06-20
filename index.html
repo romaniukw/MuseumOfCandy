@@ -12,57 +12,80 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <!-- Custom CSS -->
   <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="menu.css">
 
   <title>Museum of Candy</title>
 </head>
 
 <body>
 
-  <div class="navbar">
-    <a class="link brand" href="#">CANDY</a>
-    <a class="link" href="#">HOME</a>
-    <a class="link" href="#">ABOUT</a>
-    <a class="link" href="#">TICKETS</a>
+  <div class="menu">
+    <a class="menu__link menu__link--brand" href="#">CANDY</a>
+    <a class="menu__link" href="#">HOME</a>
+    <a class="menu__link" href="#">ABOUT</a>
+    <a class="menu__link" href="#">TICKETS</a>
     <i class="fas fa-bars"></i>
   </div>
-  <div class="row">
-    <div class="branding">
-      <label>
-      MUSEUM<span class="redSlash">/</span>OF<span class="redSlash">/</span>CANDY<br>
-      MUSEUM<span class="redSlash">/</span>OF<span class="redSlash">/</span>CANDY<br>
-      MUSEUM<span class="redSlash">/</span>OF<span class="redSlash">/</span>CANDY<br>
-      MUSEUM<span class="redSlash">/</span>OF<span class="redSlash">/</span>CANDY<br>
-    </label>
-  </div>
-      <img src="./imgs/hand2.png">
-  </div>
-  <img src="./imgs/milk.png">
-  <img src="./imgs/gumball.png">
-  <img src="./imgs/sprinkles.png">
-  <!-- <div class="page">
-    <div>
-      <div>
-        MUSEUM<span class="redSlash">/</span>OF<span class="redSlash">/</span>CANDY<br>
-        MUSEUM<span class="redSlash">/</span>OF<span class="redSlash">/</span>CANDY<br>
-        MUSEUM<span class="redSlash">/</span>OF<span class="redSlash">/</span>CANDY<br>
-        MUSEUM<span class="redSlash">/</span>OF<span class="redSlash">/</span>CANDY<br>
-      </div>
-      <div>paczek</div>
-    </div>
-    <div>
-      <div>foto</div>
-      <div>text</div>
-    </div>
-    <div>
-      <div>text</div>
-      <div>foto</div>
-    </div>
-    <div>
-      <div>foto</div>
-      <div>text</div>
-    </div> -->
-  </div>
 
+  <div class="row">
+    <div class="row__text-part">
+      <label class="text-part__header text-part--brand">
+        MUSEUM<span class="text-part__slash">/</span>OF<span class="text-part__slash">/</span>CANDY<br>
+        MUSEUM<span class="text-part__slash">/</span>OF<span class="text-part__slash">/</span>CANDY<br>
+        MUSEUM<span class="text-part__slash">/</span>OF<span class="text-part__slash">/</span>CANDY<br>
+        MUSEUM<span class="text-part__slash">/</span>OF<span class="text-part__slash">/</span>CANDY<br>
+      </label>
+    </div>
+    <img class="image-part" src="./img/hand2.png">
+  </div>
+  <div class="row row--reversed">
+    <div class="row__text-part">
+      <h3 class="text-part__header">LOREM IPSUM</h3>
+      <img class="text-part__lollipop" src="./img/lolli_icon.png">
+      <div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ducimus dicta iusto
+        exercitationem nulla adipisci vero pariatur sequi commodi corrupti, magni aspernatur culpa.</p>
+      </div>
+    </div>
+    <img class="image-part" src="./img/milk.png">
+  </div>
+  
+  <div class="row">
+      <div class="row__text-part">
+        <h3 class="text-part__header">LOREM IPSUM</h3>
+        <img class="text-part__lollipop" src="./img/lolli_icon.png">
+        <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ducimus dicta iusto
+          exercitationem nulla adipisci vero pariatur sequi commodi corrupti, magni aspernatur culpa.</p>
+        </div>
+      </div>
+      <img class="image-part" src="./img/gumball.png">
+    </div>
+    
+  <div class="row row--reversed">
+      <div class="row__text-part">
+        <h3 class="text-part__header">LOREM IPSUM</h3>
+        <img class="text-part__lollipop" src="./img/lolli_icon.png">
+        <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ducimus dicta iusto
+          exercitationem nulla adipisci vero pariatur sequi commodi corrupti, magni aspernatur culpa.</p>
+        </div>
+      </div>
+      <img class="image-part" src="./img/milk.png">
+    </div>
+
+    <div class="row">
+        <div class="row__text-part">
+          <h3 class="text-part__header">LOREM IPSUM</h3>
+          <img class="text-part__lollipop" src="./img/lolli_icon.png">
+          <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ducimus dicta iusto
+            exercitationem nulla adipisci vero pariatur sequi commodi corrupti, magni aspernatur culpa.</p>
+          </div>
+        </div>
+        <img class="image-part" src="./img/sprinkles.png">
+      </div>
+  
   <script language="JavaScript" type="text/javascript" src="./script.js"></script>
 </body>
 
